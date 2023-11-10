@@ -1,6 +1,8 @@
 """
 Testing Llama API/SDK
 
+https://github.com/philschmid/easyllm/blob/main/README.md
+
 10 Nov 2023
 
 To create a Python Virtual Environment:
@@ -8,13 +10,21 @@ a) To create the Python venv, go to Manage > Command Palette > Create Environmen
 b) In Terminal type ".venv\Scripts\activate" (A green (.venv) should appear to the left of the Terminal prompt).
 
 Get the key by going to 
-https://huggingface.co
+
+https://huggingface.co/
+em: timothyschofield@hotmail.com
+pw: fhr$$%ERSD345
+
+Username: TimSchofield
+Full Name: Timothy Schofield
+TimsFirstToken
+
 Creating an account
 then creating a Pro account with your credit card
 Click on your account (TRHC) blue orb > Settings > Access Tokens
 
 Then in the Terminal type
-    "setx OPENAI_API_KEY <the key>"
+    "setx HUGGINGFACE_TOKEN <the key>"
  
 WARNING: You have to quit out of VS Code (this IDE) and go back in before the new system environment variables are avaliable
 
@@ -25,6 +35,8 @@ FYI: To see all system environment variables,
 Bad request:
 Model requires a Pro subscription; check out hf.co/pricing to learn more. 
 Make sure to include your HF token in your query.
+
+https://github.com/philschmid/easyllm/blob/main/README.md
 
 """
 import os 
